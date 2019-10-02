@@ -8,7 +8,7 @@
     <title>2018 Player Info</title>
 	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
     <!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">  
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="../resources/css/my_style.css" rel="stylesheet">
   </head>
   <body>
@@ -40,17 +40,34 @@
 		<br>
 		<div class="row">
 			<div class="col-4">
-				<!-- 
+				<!--
 					Todo: This section will hold a Bootstrap Card containing
 						   a demo image (temp_image.svg) and a Bootstrap Dropdown menu
 						   to allow the user to select between 3 temp players (switching between
 						   the players will be implemented in a future lab).
 				-->
+        <div class="card">
+  <img class="card-img-top" src="i..resourcesmg/tree.jpg" alt="An image of a tree taken by Brian Green & listed on Wikipedia" height="120px" width="90px">
+  <div class="card-body">
+    <p class="card-title">Card title</p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>>
 			</div>
 			<div class="col-8">
-				<!-- 
+				<!--
 					Todo: This section will hold a table with a temp player's information
-					
+
 					|  Year                |  Junior                  |
 					|  Major               |  History                 |
 					|  Games Played        |  32                      |
@@ -58,11 +75,35 @@
 					|  Rushing Yards: 378  |  Avg. Rushing Yards: 12  |
 					|  Receiving Yards: 57 |  Avg. Receiving Yards: 2 |
 				-->
+        <table>
+          <table class="table">
+            <thead>
+              <tr>
+                <th><center>Year</th><td><center>Junior</td>
+              </tr>
+              <tr>
+                <th><center>Major</th><td><center>History</td>
+              </tr>
+              <tr>
+                <th><center>Games Played</th><td><center>32</td>
+              </tr>
+              <tr>
+                <td><center>Passing Yards: 855</th><td><center>Avg. Passing Yards: 26</td>
+              </tr>
+              <tr>
+                <td><center>Rushing Yards: 378</th><td><center>Avg. Rushing Yards: 12</td>
+              </tr>
+              <tr>
+                <td><center>Receiving Yards: 57</th><td><center>Avg. Receiving Yards: 2</td>
+              </tr>
+          </thead>
+	</table>
+</table>
 			</div>
 		</div>
-		
+
 	</div>
-  
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
